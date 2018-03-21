@@ -1,0 +1,80 @@
+.product-form {
+	margin-top: 40px;
+	padding: 15px;
+	padding-top: 20px;
+	margin-right: 90px;
+	background: #e6e2e8;
+	border-radius: .4rem;
+}
+.edited-card {
+	padding-top: 80px;
+}
+.product-form button {
+	background: #009ddb;
+	cursor: pointer;
+	border:none;
+}
+.product-form button:hover {
+	background-color: #007daf;
+}
+.btn-danger {
+	background: red !important;
+	margin-left: 10px;
+}
+
+.btn-danger:hover {
+	background: #cc0000 !important;
+}
+@media screen and (min-width: 370px) and (max-width: 666px){ 
+
+.product-form {
+	margin-top: 0px;
+	padding: 15px;
+	padding-top: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+	background: #e6e2e8;
+	border-radius: .4rem;
+}
+.edited-card {
+	padding-top: 50px;
+}
+
+}
+
+@media screen and (min-width: 667px) and (max-width: 767px){ 
+
+.product-form {
+	margin-top: 0px;
+	padding: 15px;
+	padding-top: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+	background: #e6e2e8;
+	border-radius: .4rem;
+}
+.edited-card {
+	padding-top: 50px;
+}
+
+}
+
+@media screen and (min-width: 1024px) { 
+
+.product-form {
+	margin-top: 0px;
+	padding: 15px;
+	padding-top: 20px;
+	margin-right: 120px;
+	margin-left: 10px;
+	background: #e6e2e8;
+	border-radius: .4rem;
+}
+
+
+}
+
+
+
+
+

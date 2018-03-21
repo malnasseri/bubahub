@@ -1,0 +1,220 @@
+
+
+
+
+.thumbnail {
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  width:65px;
+  height: 65px;
+  border-radius: .4rem;
+}
+table th, table tr {
+	text-align: center;
+}
+
+table {
+	text-align: center;
+	/*background:#f4f1ea;*/
+	/*padding:20px 40px;*/
+}
+table td {
+
+}
+/*table button {
+	background: #8f809a;
+	color: white;
+	cursor: pointer;
+}*/
+table button:hover, .card button:hover {
+ background: #72637c;
+    color: white !important;
+}
+.card button {
+	background: #8f809a;
+	color: white;
+	cursor: pointer;
+	margin-top: 10px;
+}
+.card {
+	width: 60%;
+	margin-left: 230px;
+	margin-bottom: 45px;
+	padding: 15px;
+	/*margin-right: 10px;*/
+	background-color: #f9f8fa;
+
+}
+.card .list-group-item {
+	
+}
+.card img {
+	margin-bottom: 10px;
+	margin-right: 0px;
+	margin-left: 20px;
+}
+.float-right {
+	margin-top: 10px;
+}
+ ::ng-deep button.btn {
+	cursor: pointer !important;
+}
+.two {
+	margin-top: 0;
+}
+a.btn:hover {
+
+	background:#007daf !important;
+}
+a.btn {
+	background: #009ddb;
+    border: none;
+    margin-bottom: 25px;
+}
+.subTotal {
+margin-right: 13px;
+}
+.product-total {
+padding-top: 25px;
+}
+.product-name {
+padding-top: 25px;
+}
+.product-count {
+padding-top: 20px;
+}
+.btn-sm {
+	width: 30%;
+
+	/*background: darkred !important;*/
+
+}
+.cart-total {
+	margin-top: 20px;
+text-align: center;
+}
+@media screen and (min-width: 370px) and (max-width: 666px){
+::ng-deep .container {
+	padding: 0 !important;
+}
+.card {
+	width: 99%;
+	margin-left: 0px;
+margin-right: 0px;
+	margin-bottom: 45px;
+	/*margin-right: 10px;*/
+	background-color: #f9f8fa;
+
+}
+.cart-total {
+	margin-top: 0px;
+text-align: center;
+}
+.product-count {
+padding-top: 10px;
+}
+::ng-deep .product-count {
+	padding-left: 0 !important;
+	padding-right: 0;
+}
+ 
+
+.btn-sm {
+	width: 100%;
+
+	/*background: darkred !important;*/
+
+}
+.product-name {
+padding-top: 0px;
+
+	padding-right: 0;
+}
+.btn-primary {
+	width: 99%;
+	margin-left: 3px;
+}
+}
+
+@media screen and (min-width: 667px) and (max-width: 767px){
+::ng-deep .container {
+	padding: 0 !important;
+}
+.card {
+	width: 99%;
+	margin-left: 0px;
+margin-right: 0px;
+	margin-bottom: 45px;
+	/*margin-right: 10px;*/
+	background-color: #f9f8fa;
+
+}
+
+::ng-deep .product-count {
+	padding-left: 0 !important;
+	padding-right: 0;
+}
+ 
+
+.btn-sm {
+	width: 100%;
+
+	/*background: darkred !important;*/
+
+}
+.product-name {
+	padding-right: 0;
+}
+.btn-primary {
+	width: 99%;
+	margin-left: 3px;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+
+
+.card {
+	width: 99%;
+	margin-left: 0px;
+margin-right: 0px;
+	margin-bottom: 45px;
+	/*margin-right: 10px;*/
+	background-color: #f9f8fa;
+
+}
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1280px){
+
+
+.card {
+	width: 99%;
+	margin-left: 0px;
+margin-right: 0px;
+	margin-bottom: 45px;
+	/*margin-right: 10px;*/
+	background-color: #f9f8fa;
+
+}
+.thumbnail {
+	/*margin-left: -10px;*/
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

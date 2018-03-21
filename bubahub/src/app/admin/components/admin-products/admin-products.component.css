@@ -1,0 +1,151 @@
+
+
+::ng-deep table a {
+	background: #009ddb;
+    padding: 5px 15px;
+	color: white;
+	cursor: pointer;
+	border-radius: .4rem;
+	text-decoration: none !important;
+}
+::ng-deep table a:hover, .new-product:hover {
+	background-color: #007daf !important;
+	color:white;
+}
+
+::ng-deep .table-col { 
+	margin-bottom: 160px;
+	padding-bottom: 160px;
+	/*margin-left: 150px;*/
+	background-color: #f4f1ea;
+	border-radius: .4rem;
+}
+.search-col {
+	background-color: #f4f1ea;
+margin-left: 150px;
+padding-top: 15px;
+padding-bottom: 15px;
+margin-bottom: 15px;
+border-radius: .4rem;
+
+}
+.new-product {
+		background: #009ddb;
+		border:none;
+}
+
+::ng-deep .column-price { 
+
+text-align: center;
+}
+::ng-deep .column-key {
+/*margin-right: -80px;*/
+}
+::ng-deep .button-panel {
+	display: none;
+}
+::ng-deep .pagination-pages {
+	margin-right: 235px;
+background: white;
+padding: 10px;
+border-radius: .4rem;
+}
+::ng-deep .pagination-pages button {
+	padding-top: 0;
+	padding-bottom: 0px;
+	cursor: pointer;
+	background: white;
+
+	font-size: 18px;
+}
+
+@media screen and (min-width: 370px) and (max-width: 666px){ 
+.table-col { 
+	margin-bottom: 60px;
+	padding-bottom: 60px;
+	margin-left: 0px;
+	background-color: #f4f1ea;
+}
+.search-col {
+margin-left: 0px;
+
+}
+::ng-deep .pagination-pages {
+	margin-right: 10px;
+	}
+}
+
+@media screen and (min-width: 667px) and (max-width: 767px){ 
+
+.table-col { 
+	margin-bottom: 60px;
+	padding-bottom: 60px;
+	margin-left: 0px;
+	background-color: #f4f1ea;
+}
+.search-col {
+margin-left: 0px;
+
+}
+::ng-deep .pagination-pages {
+	margin-right: 95px;
+	}
+
+
+ }
+
+@media screen and (min-width: 768px) and (max-width: 1023px){ 
+
+.table-col { 
+	margin-bottom: 60px;
+	padding-bottom: 60px;
+	margin-left: 0px;
+	background-color: #f4f1ea;
+}
+.search-col {
+margin-left: 0px;
+
+}
+::ng-deep .pagination-pages {
+	margin-right: 170px;
+	}
+
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px){ 
+
+.table-col { 
+	margin-bottom: 60px;
+	padding-bottom: 60px;
+	margin-left: 0px;
+	background-color: #f4f1ea;
+}
+.search-col {
+margin-left: 0px;
+
+}
+::ng-deep .pagination-pages {
+	margin-right: 290px;
+	}
+
+
+}
+@media screen and (min-width: 1280px) { 
+
+/*.table-col { 
+	margin-bottom: 60px;
+	padding-bottom: 60px;
+	margin-left: 0px;
+	background-color: #f4f1ea;
+}*/
+.search-col {
+margin-left: 0px;
+
+}
+::ng-deep .pagination-pages {
+	margin-right: 390px;
+	}
+
+
+}

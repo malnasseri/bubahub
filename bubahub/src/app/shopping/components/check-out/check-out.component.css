@@ -1,0 +1,48 @@
+.shipping {
+	background:#f4f1ea;
+	padding: 25px;
+}
+.shipping button {
+
+}
+
+.summary {
+
+}
+
+@media screen and (min-width: 370px) and (max-width: 666px){
+
+
+.shipping {
+	width: 99%;
+margin-bottom: 30px;	
+margin-left: 2px;
+}
+.shipping button {
+
+}
+
+.summary {
+margin-bottom: 80px;
+}
+}
+@media screen and (min-width: 667px) and (max-width: 767px){
+
+
+.shipping {
+	width: 99%;
+margin-bottom: 30px;	
+margin-left: 2px;
+}
+.shipping button {
+
+}
+
+.summary {
+margin-bottom: 80px;
+}
+
+
+
+
+}

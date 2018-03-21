@@ -1,0 +1,145 @@
+
+a{
+	text-decoration: none;
+}
+
+.pull-right {
+	margin-left: 30px;
+}
+
+.filter {
+	margin-left: 0px;
+
+	background: #b3b3ba !important !important;
+
+	
+}
+.category {
+	padding-top: 15px;
+
+}
+.cards {
+	border-radius: .4rem;
+	margin-top: 40px;
+	padding-top: 18px;
+	
+	padding-bottom: 40px;
+	margin-bottom: 75px;
+	/*height: 100vh;*/
+	  /*background-color: #f9f8fa;*/
+ 
+
+
+}
+.cards ::ng-deep .card image {
+  border-radius: .6rem;
+}
+@media screen and (min-width: 370px) and (max-width: 666px){
+.filter {
+	margin-left:60px;
+
+}
+
+	.cards {
+	padding-top: 0px;
+	z-index: 2;
+	}
+	.container {
+		padding: 0;
+	}
+	.pull-right {
+		width: 260px;
+		padding-right: 0;
+		margin-left: 115px;
+		float: none;
+		margin-right: 0;
+
+}
+
+}
+
+@media screen and (min-width: 667px) and (max-width: 767px){ 
+.filter {
+	margin-left:90px;
+
+}
+.cards {
+	/*padding-top: 0px;*/
+	z-index: 2;
+	}
+	.container {
+		padding: 0;
+	}
+	.pull-right {
+		width: 360px;
+		padding-right: 0;
+		margin-left: 215px;
+		float: none;
+		margin-right: 0;
+
+}
+	
+
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){ 
+
+.filter {
+	margin-left:40px;
+
+}
+.pull-right {
+		width: 260px;
+}
+
+.container {
+margin-left: 140px;
+	}
+
+
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1279px){ 
+
+/*.filter {
+	margin-left:40px;
+
+}*/
+.pull-right {
+		width: 360px;
+}
+
+.container {
+margin-left: 165px;
+	}
+
+
+}
+@media screen and (min-width: 1280px) { 
+
+.filter {
+	margin-left:0px;
+
+}
+.pull-right {
+		width: 460px;
+}
+
+.container {
+margin-left: 190px;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,102 @@
+
+button:focus {
+	outline: 0!important;
+}
+
+
+.thumbnail {
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  width:45px;
+  height: 45px;
+  border-radius: .4rem;
+}
+table th {
+	text-align: center;
+}
+
+table {
+	text-align: center;
+	background:#f4f1ea;
+	/*padding:20px 40px;*/
+}
+table button {
+	background: #009ddb;
+    
+	color: white;
+	cursor: pointer;
+}
+
+table button:hover {
+	background-color: #007daf !important;
+}
+ .card button:hover {
+ background: #72637c;
+    color: white !important;
+}
+.card button {
+	background: #8f809a;
+	color: white;
+	cursor: pointer;
+	margin-top: 10px;
+}
+.card {
+	width: 100%;
+	float: left;
+	margin-bottom: 22px;
+	margin-right: 10px;
+	background: #e6e2e8;
+}
+.card .list-group-item {
+	background-color: #f9f8fa;
+}
+.card img {
+	margin-right: 15px;
+}
+.float-right {
+	margin-top: 10px;
+}
+
+.two {
+	margin-top: 0;
+}
+
+
+
+@media screen and (min-width: 370px) and (max-width: 666px){ 
+
+.card {
+	width: 100%;
+	
+}
+.col-md-7 {
+	padding-bottom: 40px;
+}
+
+}
+
+
+
+@media screen and (min-width: 667px) and (max-width: 1279px){ 
+
+.card {
+	width: 100%;
+	
+}
+.col-md-7 {
+	padding-bottom: 40px;
+}
+
+}
+
+
+
+
+
+
+
+
+

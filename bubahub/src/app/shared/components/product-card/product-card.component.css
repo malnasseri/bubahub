@@ -1,0 +1,105 @@
+
+
+.card-title {
+	margin-top: -41px;
+	padding: 10px 0;
+	background-color: rgba(0,0,0, .31);
+	color: white !important;
+	position: relative;
+border-radius: 0 !important;
+line-height: unset !important;
+}
+/*.card button {
+	margin-top: -15px;
+}*/
+.card-title h5 {
+border-radius: 0 !important;
+
+}
+::ng-deep .card {
+	text-align: center;
+}
+.card { 
+  margin-bottom: 30px;
+  border: none;
+  /*flex-flow:  wrap;*/
+}
+.cards {
+	margin-bottom: 70px;
+}
+.card-img-top { 
+  height: 220px;
+  border-radius: .4rem;
+  padding-bottom: 0;
+  border-radius: 0 !important;
+
+}
+
+.card-footer {
+  padding: 0;
+  background: none !important;
+  margin-top: -13.5px;
+
+}
+::ng-deep .btn-secondary {
+  background-color: #8f809a !important;
+  cursor: pointer !important;
+}
+.card-footer button:hover {
+  background: #746681 !important;
+
+}
+::ng-deep .btn-secondary:hover {
+  background: #746681 !important;
+}
+.card-footer button {
+	/*border: solid 2px white;*/
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 0 !important;
+  background: #8f809a;
+
+}
+::ng-deep .card-body {
+	padding: 14px 0 0 0;
+
+}
+
+@media screen and (min-width: 370px) and (max-width: 767px){ 
+
+.card-title  {
+font-size: 15px !important;
+/*margin-top: -37px;*/
+
+}
+
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){ 
+
+.card-title  {
+font-size: 15px !important;
+/*margin-top: -37px;*/
+
+}
+
+
+}
+
+@media screen and (min-width: 1024px) { 
+
+.card-title  {
+font-size: 16px !important;
+/*margin-top: -37px;*/
+
+}
+
+
+}
+
+
+
+
+

@@ -1,0 +1,132 @@
+<!-- <h1>Orders</h1> -->
+
+
+
+
+<div class="row my-orders">
+  <div class="col-md-5" >
+
+<table class="table">
+  <thead>
+    <tr>
+     <!--  <button style="background-color: black; color: white;" (click)="toggle($event)" class="someclass" id="btn1">ONE</button>
+<button (click)="toggle($event)"  style="background-color: black; color: white;" class="someclass" id="btn2">TWO</button> -->
+      <th>Customer</th>
+      <th>Date</th>
+      <th></th>
+    </tr>
+  </thead> 
+  <tbody >
+<!-- <li *ngFor="let order of orders$ | async" >
+   <a (click)="hideme[order.$key] = !hideme[order.$key]">show/hide</a>
+   <div [hidden]="!hideme[order.$key]" style="color: black;">The content will show/hide</div>
+</li> -->
+
+
+    <!-- <tr *ngFor="let order of orders$ | async"> -->
+      <!-- <td >${{cart$.items}}</td> -->
+
+    <tr *ngFor="let order of orders$ | async" >
+
+  
+   
+    <!-- <button  id={{order.$key}} (click)="hideButton($event)">Hide </button> -->
+   <!--  <div id={{order.$key}} [hidden]="!hideme[order.$key]"> <td *ngFor="let item of order.items " >${{item.totalPrice }}/ {{item.quantity}} PCS {{item.product.title}}</td><td *ngFor="let item of order.items" [style.backgroundImage]="'url(' + item.product.imageUrl + ')'" class="thumbnail">
+          </td> <td>{{order.finalQuantity}}PCS</td>
+          <td>${{order.finalTotal}}</td>
+
+
+
+        </div> -->
+            <!-- <td *ngFor="let item of order.items " >${{item.totalPrice }}/ {{item.quantity}} PCS {{item.product.title}}</td> -->
+            <!-- <td *ngFor="let item of order.items">{{item.quantity}} PCS</td>
+            <td *ngFor="let item of order.items">{{item.product.title}}</td> -->
+
+            <!-- <td *ngFor="let item of order.items">{{item.product.price | currency:'USD':true }}</td> -->
+           
+
+
+          <!-- <td>{{order.$key}}</td> -->
+         
+      <td>{{ order.shipping.name }}</td>
+      <td>{{ order.datePlaced | date}}</td>
+  
+
+
+
+
+      <td>
+        <button  (click)="hideme[order.$key] = true">View </button>
+      </td>
+      <!--  <div id={{order.$key}} [hidden]="!hideme[order.$key]"> <td *ngFor="let item of order.items " >${{item.totalPrice }}/ {{item.quantity}} PCS {{item.product.title}}</td><td *ngFor="let item of order.items" [style.backgroundImage]="'url(' + item.product.imageUrl + ')'" class="thumbnail">
+          </td> <td>{{order.finalQuantity}}PCS</td>
+          <td>${{order.finalTotal}}</td>
+           <button class="pull-right" (click)="hideme[order.$key] = false">Dismiss </button>
+
+
+
+        </div> -->
+    </tr>
+
+  </tbody> 
+</table>
+
+</div>
+<div class="col-md-7 col-sm-12 col-xs-12">
+  <div class="card" *ngFor="let order of orders$ | async" id={{order.$key}} [hidden]="!hideme[order.$key]">
+  <div class="card-body">
+    <h4 class="card-title">Order Summary</h4>
+    <p> Name on account:  {{ order.shipping.name }} </p><p> Shipping Address: {{ order.shipping.addressLine1 }}, {{ order.shipping.city }}</p><p> Date placed: {{ order.datePlaced | date}}</p>
+    <p class="card-text">Total items: {{ order.finalQuantity }} </p>
+    <ul class="list-group list-group-flush">
+      <li *ngFor="let item of order.items" class="list-group-item">
+        <img src="{{item.product.imageUrl}}" class="thumbnail" />  {{item.quantity }} x {{ item.product.title }}
+        <div class="float-right">
+          {{ item.totalPrice | currency:'USD':true }}
+        </div>
+      </li>
+      <li class="list-group-item font-weight-bold">
+        Total Price: 
+        <div class="float-right two">
+          {{ order.finalTotal | currency:'USD':true }}
+        </div>
+      </li>
+       <button class="pull-right" (click)="hideme[order.$key] = false">Dismiss </button>
+    </ul>
+  </div>
+</div>
+</div>
+</div>
+
+ 
+   <!--  <div class="card" *ngFor="let order of orders$ | async" id={{order.$key}} [hidden]="!hideme[order.$key]">
+  <div class="card-body">
+    <h4 class="card-title">Order Summary</h4>
+    <p class="card-text">You have {{ order.finalQuantity }} items in your shopping cart.</p>
+    <ul class="list-group list-group-flush">
+      <li *ngFor="let item of order.items" class="list-group-item">
+        {{ item.quantity }} x {{ item.title }}
+        <div class="float-right">
+          {{ item.totalPrice | currency:'USD':true }}
+        </div>
+      </li>
+      <li class="list-group-item font-weight-bold">
+        Total 
+        <div class="float-right">
+          {{ order.finalTotal | currency:'USD':true }}
+        </div>
+      </li>
+       <button class="pull-right" (click)="hideme[order.$key] = false">Dismiss </button>
+    </ul>
+  </div>
+</div> -->
+
+
+
+
+
+
+
+
+
+
