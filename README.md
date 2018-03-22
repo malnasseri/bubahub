@@ -18,7 +18,7 @@ A Shopping Website build with Angular 4 and Firebase.
 - Realtime updates (through Firebase Realtime Database).
 
 ## Tech Stuff Used
-
+- Typescript
 - Angular 4 *(Frontend)*
 - Firebase Realtime Database *(Backend)*
 - Firebase authentication
